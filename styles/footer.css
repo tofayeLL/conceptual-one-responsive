@@ -1,0 +1,75 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* footer related styles */
+
+.upper-footer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    /* height: 250px; */
+    flex-wrap: wrap;
+   
+}
+
+.upper-footer > div{
+    /* border: 1px solid green; */
+    width: 24%;
+    flex-basis: 200px;
+    /* min-width: 200px; */
+   
+  
+}
+.social i{
+    margin-right: 10px;
+  
+  
+}
+.newsletter input, button{
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: 0;
+}
+.newsletter button{
+    background-color: darkorange;
+}
+
+
+
+.lower-footer{
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+
+.lower-footer .f-nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    
+   
+   
+    
+}
+

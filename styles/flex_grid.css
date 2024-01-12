@@ -9,6 +9,7 @@
 
 
 
+
 /* Main section related styles */
 
 .container{
@@ -98,13 +99,12 @@
 
 
 
-/* footer related styles */
-
-
-
 
 
 /* for responsive smaller devices */
+.hide{
+    display: none;
+}
 
 /* Responsive for small devices */
 @media screen and (max-width: 576px) {
