@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
+    
 }
 
 .container{
@@ -29,7 +30,6 @@
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(4,1fr);
     padding: 10px;
-
 }
 .image-container img{
     width: 100%;
@@ -37,8 +37,6 @@
     height: 100%;
     border-radius: 5px;
 }
-
-
 
 .grid-item-1{
     grid-column: 1/span 6;
@@ -77,14 +75,14 @@
 }
 
 
-
-
 /* text container related styles */
 
 .text-container{
     border: 2px solid blue;
     width: 48%;
-
 }
+
+
+/* for responsive smaller devices */
 
 
