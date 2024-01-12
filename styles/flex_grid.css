@@ -6,11 +6,16 @@
     
 }
 
+
+
+
+/* Main section related styles */
+
 .container{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 80%;
     margin: 0 auto;
-    padding: 5px;
+    padding: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,16 +25,28 @@
   
 }
 
+/* text container related styles */
+
+.text-container{
+    /* border: 2px solid blue; */
+    width: 48%;
+}
+.text-container *{
+    margin-top: 20px;
+}
+
+
+
 /* image container related styles */
 
 .image-container{
-    border: 2px solid red;   
+    /* border: 2px solid red;    */
     width: 48%;
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(4,1fr);
-    padding: 10px;
+    /* padding: 10px; */
 }
 .image-container img{
     width: 100%;
@@ -75,12 +92,16 @@
 }
 
 
-/* text container related styles */
 
-.text-container{
-    border: 2px solid blue;
-    width: 48%;
-}
+
+
+
+
+
+/* footer related styles */
+
+
+
 
 
 /* for responsive smaller devices */
